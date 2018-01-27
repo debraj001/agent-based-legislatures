@@ -15,12 +15,6 @@
 #   party size, distance betweenparty medians, and intraparty heterogeneity are altered
 #   to generate data across these variables and output to a .csv file. 
 #
-# Notes:
-#   To reduce computational time, this script use multi-core processing to run the simulation
-#   across different variables. Be sure to change the commented number in the 'parallelize'
-#   function to match the number of processor cores the computer has in order to correctly
-#   start the multiprocessing pool.
-#
 ###############################################################################################
 
 ####################
