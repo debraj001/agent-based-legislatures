@@ -31,6 +31,7 @@
 import random, timeit
 import pandas as pd
 import numpy as np
+import parallel
 from multiprocessing import Pool
 
 # set seed for randomization
@@ -180,7 +181,7 @@ def parallelize(f, sequence):
     """
     
     # start multiprocessing pool
-    pool = Pool(processes = 8) # set this to number of processor cores the computer has.
+    pool = Pool(processes = parallel::detectCores())
     
     result = pool.map(f, sequence)
     
