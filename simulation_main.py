@@ -1,5 +1,5 @@
 ###############################################################################################
-# Agent-based Legislative Modeling Simulation
+# Agent-Based Legislative Modeling Simulation
 #
 # Author: Joseph Stigall
 #
