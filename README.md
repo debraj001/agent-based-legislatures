@@ -1,4 +1,4 @@
-# Agent-based Legislative Modeling
+# Agent-Based Legislative Modeling
 Simulations of legislatures with agent-based spatial voting models in Python
 
 ## Description
